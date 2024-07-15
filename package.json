@@ -1,0 +1,29 @@
+{
+  "name": "ts-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/uuid": "^9.0.8",
+    "tsup": "^8.0.2",
+    "tsx": "^4.7.3",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/bull": "^4.10.0",
+    "bull": "^4.15.1",
+    "bun": "^1.1.17",
+    "fastify": "^4.28.1",
+    "ts-node": "^10.9.2",
+    "uuid": "^9.0.1"
+  }
+}
